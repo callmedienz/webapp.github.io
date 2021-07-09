@@ -1,9 +1,15 @@
 <?php 
 //ket noi co so du lieu
-$hostname = 'localhost'; //ten may chu
-$username='root'; //ten tai khoan ket noi vao may chu csdl
-$password=''; //mat khau cua tai khoan, ngầm định mật khẩu ban đầu của root là rỗng
-$dbname='1670'; //ten csdl
+// $hostname = 'localhost'; //ten may chu
+// $username='root'; //ten tai khoan ket noi vao may chu csdl
+// $password=''; //mat khau cua tai khoan, ngầm định mật khẩu ban đầu của root là rỗng
+// $dbname='1670'; //ten csdl
+// $port=3306; //so hieu cổng của máy chủ csdl
+
+$hostname = 'remotemysql.com'; //ten may chu
+$username='3fW285Jsgp'; //ten tai khoan ket noi vao may chu csdl
+$password='2A5ZcTMNbF'; //mat khau cua tai khoan, ngầm định mật khẩu ban đầu của root là rỗng
+$dbname='3fW285Jsgp'; //ten csdl
 $port=3306; //so hieu cổng của máy chủ csdl
 function query($sql)
 {
