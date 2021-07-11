@@ -1,0 +1,125 @@
+
+/*//navigation bar*/
+.navbar {
+  overflow: hidden;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+
+
+/*footer*/
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: left;
+}
+
+
+
+
+
+/*table*/
+.table {
+  position: fixed;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+   margin-left: auto;
+  margin-right: auto;
+}
+
+th, td {
+  text-align: left;
+  padding: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+
+/*buton*/
+.button {
+  background-color: lightblue;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.Center{
+    width:300px;
+    height:300px;
+    background-color:white;
+    position:fixed;
+    margin-left:-150px; /* half of width */
+    margin-top:-150px;  /* half of height */
+    top:50%;
+    left:50%;
+}
+
+
+
+/*side navi*/
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 400px;
+  position: fixed;
+ 
+  top: 45px;
+  left: 0;
+  background-color: black;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 6px 6px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 400px;
+  margin-top: 65px;
+}
+
